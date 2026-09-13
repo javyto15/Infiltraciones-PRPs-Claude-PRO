@@ -415,10 +415,20 @@
     background: var(--amber-100);
     border-color: var(--amber-500);
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
+    overflow: hidden;
   }
   .zone-cta-icon { width: 34px; height: 34px; flex: none; }
-  .zone-cta .btn { margin-top: 4px; align-self: flex-start; }
+  .zone-cta .btn {
+    margin-top: 4px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.25;
+  }
 
   /* ---------- pricing ---------- */
   .price-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-m); background: var(--paper-0); }
@@ -733,8 +743,8 @@
       <div class="hero-grid">
         <div class="sec-head tight">
           <span class="eyebrow">Qué es</span>
-          <h2>Qué es el PRP (Plasma Rico en Plaquetas) y en qué se diferencia de las Células Madre</h2>
-          <p>El PRP (Plasma Rico en Plaquetas) se obtiene centrifugando una pequeña muestra de tu sangre para concentrar las plaquetas, ricas en factores de crecimiento. Junto a otras técnicas como las células madre, forma parte de la medicina regenerativa aplicada a la traumatología. Al infiltrarlo en la articulación, tendón o ligamento afectado, se busca estimular los procesos naturales de reparación del propio tejido y reducir la inflamación local.</p>
+          <h2>Qué es el PRP o Plasma Rico en Plaquetas</h2>
+          <p>El PRP (Plasma Rico en Plaquetas) se obtiene centrifugando una pequeña muestra de tu sangre para concentrar las plaquetas, ricas en factores de crecimiento. Es una técnica de medicina regenerativa aplicada a la traumatología, a la que popularmente también se le conoce como tratamiento con células madre. Al infiltrarlo en la articulación, tendón o ligamento afectado, se busca estimular los procesos naturales de reparación del propio tejido y reducir la inflamación local.</p>
         </div>
         <img class="tube-photo" src="img/1-tubo-plasma-rico-plaquetas-prp-antes-infiltracion.jpg" alt="Tubo de plasma rico en plaquetas (PRP) centrifugado antes de la infiltración - Dr. Hernández Quinto, Murcia">
       </div>
@@ -856,27 +866,22 @@
           <h3>Cadera</h3><p>Coxartrosis, tendinopatía glútea, trocanteritis</p>
         </div>
         <div class="zone-card">
-          <!-- SEO: al añadir la foto real -> <img src="img/codo-epicondilitis.jpg" alt="Infiltración de PRP en codo (epicondilitis) - Dr. Hernández Quinto, Murcia y Torrevieja"> -->
           <img class="zone-photo" src="img/5-tratamiento-prp-codo-epicondilitis-tenista-murcia.jpg" alt="Tratamiento de infiltración de PRP en codo (epicondilitis del tenista) - Dr. Hernández Quinto, traumatólogo en Murcia">
           <h3>Codo</h3><p>Epicondilitis ("codo de tenista"), epitrocleítis</p>
         </div>
         <div class="zone-card">
-          <!-- SEO: al añadir la foto real -> <img src="img/tobillo-pie.jpg" alt="Infiltración de PRP en tobillo y pie - Dr. Hernández Quinto, traumatólogo en Torrevieja"> -->
           <img class="zone-photo" src="img/6-infiltracion-prp-tobillo-pie-tendinopatia-torrevieja.jpg" alt="Infiltración de PRP en tobillo y pie (tendinopatía) - Dr. Hernández Quinto, traumatólogo en Torrevieja">
           <h3>Tobillo y pie</h3><p>Tendón de Aquiles, fascitis plantar</p>
         </div>
         <div class="zone-card">
-          <!-- SEO: al añadir la foto real -> <img src="img/muneca-mano.jpg" alt="Infiltración de PRP en muñeca y mano (rizartrosis) - Dr. Hernández Quinto, Murcia"> -->
           <img class="zone-photo" src="img/7-infiltracion-prp-muneca-mano-rizartrosis-murcia.jpg" alt="Infiltración de PRP en muñeca y mano (rizartrosis) - Dr. Hernández Quinto, traumatólogo en Murcia">
           <h3>Muñeca y mano</h3><p>Rizartrosis, tendinopatías de la mano</p>
         </div>
         <div class="zone-card">
-          <!-- SEO: al añadir la foto real -> <img src="img/artrosis.jpg" alt="Tratamiento de artrosis con PRP - Dr. Hernández Quinto, traumatólogo en Murcia y Torrevieja"> -->
           <img class="zone-photo" src="img/8-tratamiento-prp-artrosis-rodilla-murcia.jpg" alt="Tratamiento de artrosis con PRP - Dr. Hernández Quinto, traumatólogo en Murcia y Torrevieja">
           <h3>Artrosis</h3><p>Manejo del dolor en articulaciones con desgaste degenerativo</p>
         </div>
         <div class="zone-card">
-          <!-- SEO: al añadir la foto real -> <img src="img/tendinopatia-cronica.jpg" alt="Tratamiento de tendinopatías crónicas con PRP - Dr. Hernández Quinto, Pilar de la Horadada"> -->
           <img class="zone-photo" src="img/9-tratamiento-prp-tendinopatia-cronica-deportista-torrevieja.jpg" alt="Tratamiento de tendinopatías crónicas con PRP en deportistas - Dr. Hernández Quinto, Pilar de la Horadada">
           <h3>Tendinopatías crónicas</h3><p>Lesiones tendinosas de evolución prolongada, con mala respuesta a otros tratamientos</p>
         </div>
