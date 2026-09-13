@@ -1,19 +1,23 @@
-https://www.infiltracionprp.es/
-    2026-09-14
-    1.0
-  
-  
-  
-    https://www.infiltracionprp.es/aviso-legal.html
-    2026-09-14
-    0.5
-  
-  
-    https://www.infiltracionprp.es/politica-privacidad.html
-    2026-09-14
-    0.5
-  
-  
-    https://www.infiltracionprp.es/politica-cookies.html
-    2026-09-14
-    0.5
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://infiltracionprp.es/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://infiltracionprp.es/aviso-legal.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://infiltracionprp.es/politica-privacidad.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://infiltracionprp.es/politica-cookies.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+</urlset>
